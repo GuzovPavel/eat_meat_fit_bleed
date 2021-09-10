@@ -269,7 +269,7 @@ export const Container = ({ user, data, isData, isOpen, setIsOpen, open }) => {
           <div style={{ marginTop: "15px" }}>
             <EnhancedTableToolbar numSelected={selected.length} block={block} />
           </div>
-          <p>version: 1.02</p>
+          <p>version: 1.02+</p>
           <div className={classes.menuBlock}>
             {data1 &&
               data1.selected.map((item, index) => (
