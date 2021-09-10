@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+.cutlery {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.choise-check {
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    // background-color: hsl(0, 0%, 0%);
+    // color: rgb(243, 115, 41);
+    font-family: 'Otomanopee One', sans-serif;
+    cursor: pointer;
+}
+
+.choise-checked {
+    width: 65%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #3F52B5;
+    color: white;
+    cursor: pointer;
+}

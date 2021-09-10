@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+.bread {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.choise-check {
+    width: 65%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #3F52B5;
+    color: white;
+    cursor: pointer;
+}
